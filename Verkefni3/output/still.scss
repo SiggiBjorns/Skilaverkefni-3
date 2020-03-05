@@ -1,0 +1,28 @@
+body{
+	background: silver;
+	width: 90%;
+	margin: 0 auto;
+}
+ 
+ .dalkar{
+ 	display: grid;
+ 	grid-template-columns: 1fr;
+ }
+
+@media screen and (min-width: 900px){
+
+.dalkar{
+ 	display: grid;
+ 	grid-template-columns: 1fr 1fr;
+ }
+	
+}
+
+@media screen and (min-width: 1200px){
+
+.dalkar{
+ 	display: grid;
+ 	grid-template-columns: 1fr 1fr 1fr;
+ }
+	
+}
